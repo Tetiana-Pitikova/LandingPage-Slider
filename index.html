@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PL</title>
+</head>
+<body>
+    <div class="cookie-bar">
+        <span class="text-cookie">Ta strona używa plików Cookies. Dowiedz się więcej o celu ich używania i możliwości zmiany ustawień Cookies w przeglądarce. Ta strona używa Google reCAPCHA v3 w celu ochrony przed spamem. </span>
+        <span class="btn-cookie">
+            <button>Akceptuję</button>
+        </span>
+    </div>
+    <div id="page">
+        <header>
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo4valuer.png"/>
+                </a>
+            </div>
+            <div class="media">
+                <div>
+                    <a href="#">
+                        <img src="img/linkedn.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/facebook.png" alt="">
+                    </a>
+                </div>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Szukaj" name="search">
+                      <button type="submit"><i class="fa fa-search"></i>
+                        <div class="check"><img src="img/search.png" alt=""></div></button>
+                    </form>
+                </div>
+            </div>
+                                                  <!-- Slider -->
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/slider1.jpeg" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="contant-slider">
+                                <h5>PROGRAM BUDOWANIA STRATEGII</h5>
+                                <p>Aby w biznesie szybko biec <br>
+                                trzeba umieć się zatrzymać!</p>
+                            </div>
+                            <div class="btn-slider">
+                                <a href="#">Czytaj więcej</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/slider2.jpg" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="contant-slider">
+                                <h5>Akademia Leadershipu</h5>
+                                <p>Lidera można poznać po śladzie, <br>
+                                    jaki zostawia na swojej drodze.</p>
+                            </div>
+                            <div class="btn-slider">
+                                <a href="#">Czytaj więcej</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/slider3.jpeg" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="contant-slider">
+                                <h5>Wzrost Efektywności Firmy</h5>
+                                <p>Są firmy, które potrafią się rozwijać szybciej <br>
+                                    Zaplanuj ciągły wzrost dla swojej firmy!</p>
+                            </div>
+                            <div class="btn-slider">
+                                <a href="#">Czytaj więcej</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/slider4.jpeg" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="contant-slider">
+                                <h5>ROZWÓJ ZACZYNA SIĘ OD SAMOŚWIADOMOŚCI</h5>
+                                <p>Doskonałe narzędzia rozwoju właściciela, menedżera, handlowca <br>
+                                    i każdego kto pracuje z zespołem lub z klientami</p>
+                            </div>
+                            <div class="btn-slider">
+                                <a href="#">Czytaj więcej</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Следующий</span>
+                    </button>
+            </div>
+        </header>
+
+    
+                                            <!-- main -->
+
+        <main>
+                                            <!-- grid container start-->
+        <div id="grid-container">
+            <div class="grid-block">
+                <div>
+                    <img src="img/arrow.png" alt="">
+                </div>
+                <div class="grid-temp">
+                    <div class="grid-text">
+                        <h3>BUSINESS CONSULTING</h3>
+                        <p>Kompleksowe doradztwo dające impuls na rozwój</p>
+                        <a class="btn-grid-block" href="#">Czytaj więcej</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-block">
+                <div>
+                    <img src="img/table.png" alt="">
+                </div>
+                <div class="grid-temp">
+                    <div class="grid-text">
+                        <h3>SKUTECZNE SZKOLENIA</h3>
+                        <p>Zaawansowane szkolenia zawierające największy udział biznesu na rynku</p>
+                        <a class="btn-grid-block" href="#">Czytaj więcej</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-block">
+                <div>
+                    <img src="img/telegram.png" alt="">
+                </div>
+                <div class="grid-temp">
+                    <div class="grid-text">
+                        <h3>Psychologia i biznes</h3>
+                        <p>Rozwój umiejętności, kompetencji i wiedzy personelu każdego szczebla</p>
+                        <a class="btn-grid-block" href="#">Czytaj więcej</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-block">
+                <div>
+                    <img src="img/people.png" alt="">
+                </div>
+                <div class="grid-temp">
+                    <div class="grid-text">
+                        <h3>Warsztaty rozwojowe</h3>
+                        <p>Przełomowe idee i strategie dla optymalnego wzrostu każdej firmy</p>
+                        <a class="btn-grid-block" href="#">Czytaj więcej</a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+                                        <!-- grid container end-->   
+                                        <!-- grid box start-->
+
+        <div id="grid-box">
+            <div class="block-blog">
+                <div>
+                    <h3>BLOG</h3>
+                </div>
+                    <div class="block-blog-text">
+                        <h2>DYLEMATY STRATEGII CENOWEJ</h2>
+                        <p>Dlaczego gdy mówimy o STARTEGII CENOWEJ nie czujesz aby zabiło Ci serce? Jak myślisz? Jak rozkłada się sprzedaż oliwy z oliwek w procentach, biorąc pod uwagę ilości sprzedanych butelek w poniższym przykładzie? –  Dla pierwszego przypadku i dla drugiego? Ponadto:…</p>
+                        <a class="btn-block-blog" href="#">Więcej Artykułów</a>
+                    </div>
+            </div>
+
+            <div class="block-company">
+                <div>
+                    <h3>Zaufali nam</h3>
+                </div>
+                <div class="block-company-pictures">
+                    <img src="img/company1.jpg" alt="">
+                    <img src="img/company2.jpg" alt="">
+                    <img src="img/company3.jpg" alt="">
+                    <img src="img/company4.jpg" alt="">
+                    <img src="img/company5.jpg" alt="">
+                    <img src="img/company6.jpg" alt="">
+                    <img src="img/company7.png" alt="">
+                    <img src="img/company8.png" alt="">
+                    <img src="img/company9.png" alt="">
+                    <img src="img/company10.png" alt="">
+                </div>
+
+
+            </div>
+        </div>
+                                        <!-- grid box end-->
+                                        <!-- grid-integrator start-->
+        <div id="grid-integrator">
+            <div class="block-text-integrator">
+                <h2>Data Integrator</h2>
+                <h3>Koniec latających raportów!</h3>
+                <p>Idealne narzędzie dla wszystkich firm poszukujących integracji danych z różnych źródeł oraz kontroli kosztów i budżetów. DI traktuje firmę jako całość. Zbiera, analizuje i wizualizuje dane we wszystkich zakresach lub wydzielonej części firmy, bo każda aktywność i działanie przekłada się na określone efekty.</p>
+                <a class="btn-block-integrator" href="#">Poznaj szczegóły</a> 
+            </div>
+            <div class="block-picture-integrator">
+               <img src="img/data.png" alt="">
+            </div>
+        </div>
+                                        <!-- grid-integrator end-->
+        </main>
+                                        <!-- main end -->
+
+                                        <!-- footer start -->
+
+        <footer id="grid-footer">
+            <div class="footer-contact">
+                <div class="block-footer">
+                    <div>
+                        <a href="#">
+                            <img src="img/linkedn.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/facebook.png" alt="">
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="block-footer">
+                    <div>
+                        <h3>
+                            <span>Kontakt</span>
+                        </h3>
+                        <p>Chcesz nawiązać współpracę, bądź jesteś zainteresowany szkoleniem? Napisz do nas.</p>
+                    </div>
+                    <div class="contact">
+                        <form action="" target="_blank" method="POST">
+                            <div>
+                                <input type="text" name="firstname" placeholder="Imię i Nazwisko*">
+                                <input type="email" name="lastname" placeholder="Twój adres e-mail*">
+                            </div>
+                            <div>
+                                <input type="text" name="lastname" placeholder="Numer telefonu">
+                            </div>
+                            <div>
+                                <textarea placeholder="Wiadomość*"></textarea>
+                            </div>
+                            <a class="btn-contact" href="#">Wyślij</a> 
+                        </form>
+                    </div>
+                    
+                </div>
+    
+                <div class="block-footer">
+                    <div>
+                        <h3>
+                            <span>Oferta</span>
+                        </h3>
+                        <div class="list">
+                            <ul>
+                                <li><a href="#">Metodologia działań</a></li>
+                                <li><a href="#">Business Consulting</a></li>
+                                <li><a href="#">Rozwój Osobisty</a></li>
+                                <li><a href="#">PROGRAMY SZKOLEŃ</a></li>
+                                <li><a href="#">Akademie Rozwoju</a></li>
+                                <li><a href="#">4SALES CRM</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="block-footer">
+                    <div>
+                        <h3>
+                            <span>4VALUE</span>
+                        </h3>
+                        <div class="list">
+                            <ul>
+                                <li>ul. Solińska 19A</li>
+                                <li>02-142 Warszawa</li>
+                                <li>
+                                    <b>tel:</b>
+                                    22 298 51 50 
+                                </li>
+                                <li>
+                                    <b>mail:</b>
+                                    <a href="#"> biuro@4value.com.pl</a>
+                                </li>
+                                <li>
+                                    <b>więcej info:</b>
+                                    <a href="#"> o nas</a>
+                                </li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-copyright">
+                <div class="copyright">Copyright © 2021 
+                    <a href="https://4value.com.pl/" title="4VALUE"><span>4VALUE</span></a>
+                </div>
+            </div>
+            <br>
+        </footer>
+                                        <!-- footer end -->
+    </div>
+                                        <!-- page end -->
+    <script src="js/script.js"></script>
+</body>
+</html>
